@@ -1,0 +1,69 @@
+.optionss {
+    border-radius: 10px;
+    color: black;
+    border: 2px solid orange;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.optionss:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid orange;
+    text-decoration: darkcyan;
+}
+
+@media screen and (min-width:670px) {
+    .group1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .group2 {
+        width: 59%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 1%
+    }
+
+    .group3 {
+        width: 41%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 1%
+    }
+}
+
+@media screen and (max-width:669px) {
+    .group1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 1%;
+        margin-top: 3%
+    }
+
+    .group2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 1%
+    }
+
+    .group3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 1%
+    }
+}
