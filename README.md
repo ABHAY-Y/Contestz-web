@@ -1,15 +1,15 @@
-Personal Project
+Personal Project:
 
 Contestz
 
 Contestz is formed for displaying the details of ongoing or past coding contests of selected coding websites and also helps coders to redirect to corresponding coding contest's web portal. With Contestz, coders can easily track the ongoing and past coding contests.
 
-Contestz website in one page website focusing on helping coders to navigate through ongoing and past coding contests on a single portal. Data of coding contests in referred from api(https://www.kontests.net/api/v1/all). 
+Contestz website is one page website focusing on helping coders to navigate through ongoing and past coding contests on a single portal. Data of coding contests in referred from api(https://www.kontests.net/api/v1/all). 
 
 
 Upper Part of Website:
 
-Through Upper Part of website, coders can be redirect to required coding contest's website by clicking on available options and also by writing corresponding coding website name in provided search bar and navigating through appeared suggestion list in Upper part of website.
+Through Upper Part of website, coders can be redirect to required coding contest's website by clicking on available options and also by writing corresponding coding website name in provided search bar and navigating through appeared suggestion list below the search bar.
 ![image](https://user-images.githubusercontent.com/103818502/209857547-43f06502-de94-4719-a252-5f62b089bc4d.png)
 
 Middle Part of Website:
