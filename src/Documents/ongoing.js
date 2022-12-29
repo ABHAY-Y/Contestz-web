@@ -21,7 +21,7 @@ export default function Ongoingcontests() {
               <div>From: </div><Card.Subtitle className="mb-2 text-muted">{abc.start_time}</Card.Subtitle>
               <div>To: </div><Card.Subtitle className="mb-2 text-muted">{abc.end_time}</Card.Subtitle>
               <h6><Card.Text>{abc.site}</Card.Text>
-              </h6><Card.Link href="#">{abc.url}</Card.Link>
+              </h6><Card.Link href={abc.url}>{abc.url}</Card.Link>
             </Card.Body>)
           }
           return null;
