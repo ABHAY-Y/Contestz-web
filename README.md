@@ -4,7 +4,7 @@ Contestz
 
 Contestz is formed for displaying the details of ongoing or upcoming coding contests of selected coding websites and also helps coders to redirect to corresponding coding contest's web portal. With Contestz, coders can easily track the ongoing and upcoming coding contests.
 
-Contestz website in one page website focusing on helping coders to navigate through ongoing and past coding contests on a single portal. Data of coding contests in referred from api(https://www.kontests.net/api/v1/all). 
+Contestz website in one page website focusing on helping coders to navigate through ongoing and upcoming coding contests on a single portal. Data of coding contests in referred from api(https://www.kontests.net/api/v1/all). 
 
 
 Upper Part of Website:
