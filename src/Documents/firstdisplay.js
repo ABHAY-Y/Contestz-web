@@ -47,7 +47,7 @@ const eventfunction=(event)=>{
           if(value.status==="CODING"){
             value.status= "ONGOING Contest"
           }else if(value.status==="BEFORE"){
-            value.status="PAST Contest"
+            value.status="UPCOMING Contest"
           }
         return(<div style={{display:"flex"}}><a key={key} className="hy" href={value.url} target="blank"><p>{value.name}</p></a><div style={{position:"relative", left:"10px"}}>({value.status})</div></div>);      
       }
