@@ -16,9 +16,11 @@ export default function Upcontest() {
     })
     return (
         <div style={{ backgroundColor: '#6e31a6' }}>
-            <div style={{ margin: 'auto', height: 'fit-content', width: 'fit-content', backgroundColor: 'yellow' }}>Contests</div>
+            <div style={{ margin: 'auto', height: 'fit-content', width: 'fit-content', backgroundColor: 'yellow' }}>Upcoming Contests</div>
             <Card style={{ display: 'grid', gridAutoFlow: 'column', gridAutoColumns: '30%', overflowX: 'auto', overscrollBehaviorInline: 'contain' }}>
-                {name.map((abcd, index) => (
+                {name.map((abcd, index) => {
+                    if(abcd.status==="BEFORE"){
+                        return(
                     <Card.Body key={index}>
                         <Card.Title>{
                             abcd.name
@@ -39,8 +41,10 @@ export default function Upcontest() {
                         <Card.Link href="#">{
                             abcd.url
                         }</Card.Link>
-                    </Card.Body>
-                ))}
+                    </Card.Body>)
+                    }
+                    return null;
+})}
             </Card>
         </div>
     );
