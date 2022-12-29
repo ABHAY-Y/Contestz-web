@@ -19,32 +19,32 @@ export default function Upcontest() {
             <div style={{ margin: 'auto', height: 'fit-content', width: 'fit-content', backgroundColor: 'yellow' }}>Upcoming Contests</div>
             <Card style={{ display: 'grid', gridAutoFlow: 'column', gridAutoColumns: '30%', overflowX: 'auto', overscrollBehaviorInline: 'contain' }}>
                 {name.map((abcd, index) => {
-                    if(abcd.status==="BEFORE"){
-                        return(
-                    <Card.Body key={index}>
-                        <Card.Title>{
-                            abcd.name
-                        }</Card.Title>
-                        <div>From: </div><span> <Card.Subtitle className="mb-2 text-muted">{
-                            abcd.start_time
-                        }</Card.Subtitle></span>
-                        <div>To: </div>
-                        <Card.Subtitle className="mb-2 text-muted">{
-                            abcd.end_time
-                        }</Card.Subtitle>
-                        <h6>
-                            <Card.Text>{
-                                abcd.site
-                            }
-                            </Card.Text>
-                        </h6>
-                        <Card.Link href="#">{
-                            abcd.url
-                        }</Card.Link>
-                    </Card.Body>)
+                    if (abcd.status === "BEFORE") {
+                        return (
+                            <Card.Body key={index}>
+                                <Card.Title>{
+                                    abcd.name
+                                }</Card.Title>
+                                <div>From: </div><span> <Card.Subtitle className="mb-2 text-muted">{
+                                    abcd.start_time
+                                }</Card.Subtitle></span>
+                                <div>To: </div>
+                                <Card.Subtitle className="mb-2 text-muted">{
+                                    abcd.end_time
+                                }</Card.Subtitle>
+                                <h6>
+                                    <Card.Text>{
+                                        abcd.site
+                                    }
+                                    </Card.Text>
+                                </h6>
+                                <Card.Link href="#">{
+                                    abcd.url
+                                }</Card.Link>
+                            </Card.Body>)
                     }
                     return null;
-})}
+                })}
             </Card>
         </div>
     );
