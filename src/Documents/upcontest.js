@@ -38,7 +38,7 @@ export default function Upcontest() {
                                     }
                                     </Card.Text>
                                 </h6>
-                                <Card.Link href="#">{
+                                <Card.Link href={abcd.url}>{
                                     abcd.url
                                 }</Card.Link>
                             </Card.Body>)
