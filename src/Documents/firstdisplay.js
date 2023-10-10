@@ -29,7 +29,7 @@ const eventfunction=(event)=>{
 }
   return ( 
     <div>
-    <h1 style={{position:"relative",width:"max-content",textAlign:"center",top:"10px",left:"10px", borderRadius:"7px",color:"white", backgroundColor:"orange"}}>Contestzapp</h1>
+    <h1 style={{position:"relative",width:"max-content",textAlign:"center",top:"10px",left:"10px", borderRadius:"7px",color:"white", backgroundColor:"orange"}}>Contestz</h1>
     <br></br>
     <br></br>
     <br></br>
