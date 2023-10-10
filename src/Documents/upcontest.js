@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card'
 export default function Upcontest() {
     const [name, setName] = useState([0]);
     const contestfetch = () => {
-        fetch("https://www.kontests.net/api/v1/all")
+        fetch("https://kontests.net/api/v1/all")
             .then((response) => {
                 return response.json();
             }).then((abcd) => {

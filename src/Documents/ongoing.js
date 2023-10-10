@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card'
 export default function Ongoingcontests() {
   const [name, setName] = useState([0]);
   const contestfetch = () => {
-    fetch("https://www.kontests.net/api/v1/all").then((response) => {
+    fetch("https://kontests.net/api/v1/all").then((response) => {
       return response.json()
     }).then(abcd => {
       setName(abcd)

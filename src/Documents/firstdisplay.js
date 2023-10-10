@@ -4,7 +4,7 @@ export default function Header() {
 const [filter, setFilter] = useState([]);
 const [abcde, setAbcde] = useState([0]);
 const contestfetch = () => {
-  fetch("https://www.kontests.net/api/v1/all")
+  fetch("https://kontests.net/api/v1/all")
   .then((response) => {
       return response.json();
   }).then((abcd)=>{
